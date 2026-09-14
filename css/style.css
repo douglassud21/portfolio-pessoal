@@ -5991,3 +5991,12 @@ body.light-mode .portfolio-footer {
 
 
 
+/* =========================================================
+   ACESSIBILIDADE — FOCO PELO TECLADO
+   ========================================================= */
+
+a:focus-visible,
+button:focus-visible {
+    outline: 2px solid var(--laranja);
+    outline-offset: 5px;
+}
